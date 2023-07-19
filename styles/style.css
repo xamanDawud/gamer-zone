@@ -340,6 +340,30 @@ img.play-instant-ad-image {
   .onlilne-game {
     display: none;
   }
+  /* Play instant section responsive style is here  */
+  .play-instant {
+    flex-direction: column;
+  }
+  .play-instant-contant {
+    margin-top: 70px;
+    margin-left: 0%;
+  }
+  h3.play-instant-title {
+    text-align: center;
+  }
+  p.play-instant-pra {
+    text-align: center;
+  }
+  .play-instanto-img {
+    width: 64%;
+    margin-top: 30px;
+    margin-left: 11%;
+  }
+  img.play-instant-ad-image {
+    bottom: 119px;
+    width: 140px;
+    left: -58px;
+  }
 }
 
 /* Tablet responsive style  */
