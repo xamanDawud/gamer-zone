@@ -370,6 +370,7 @@ img.play-instant-ad-image {
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .nav {
     flex-direction: column;
+    margin-right: 0%;
   }
   .nav-logo {
     margin: 0 auto;
@@ -384,7 +385,7 @@ img.play-instant-ad-image {
   }
   .play-like-content {
     margin-top: 34px;
-    margin-left: 25%;
+    margin-left: 35%;
   }
   .play-section-wrapper {
     background: none;
@@ -396,7 +397,7 @@ img.play-instant-ad-image {
   }
   .play-like-img img {
     width: 80%;
-    margin-left: 25%;
+    margin-left: 58%;
   }
   button.btn-goRogue {
     margin-left: 0px;
@@ -417,16 +418,41 @@ img.play-instant-ad-image {
     margin-left: 39%;
   }
   .we-are-gamer-img {
-    margin-left: 8%;
+    margin-left: 16%;
+    width: 70%;
   }
   .we-are-gamer-content {
     text-align: left;
-    width: 80vw;
-    margin-left: 12%;
+    margin-left: 20%;
     margin-top: 36px;
+    width: 70%;
   }
   /* Online game section responsive style in here  */
   .onlilne-game {
     display: none;
+  }
+  /* Play instant section responsive style is here  */
+  .play-instant {
+    flex-direction: column-reverse;
+  }
+  .play-instant-contant {
+    margin-top: -65px;
+    margin-left: 4%;
+  }
+  h3.play-instant-title {
+    text-align: center;
+  }
+  p.play-instant-pra {
+    text-align: center;
+  }
+  .play-instanto-img {
+    width: 46%;
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  img.play-instant-ad-image {
+    bottom: 119px;
+    width: 140px;
+    left: -58px;
   }
 }
