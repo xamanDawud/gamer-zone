@@ -608,4 +608,30 @@ span.footer-icon img {
     font-size: 10x;
     color: #0b0223;
   }
+  /* Footer responsive styles is here  */
+  .footer {
+    width: 100vw;
+  }
+  .footer-menus {
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+  }
+  .footer-menus a {
+    margin-top: 20px;
+  }
+  .footer-icon {
+    grid-template-columns: repeat(2, 1fr);
+    width: 404px;
+    margin-left: 35vw;
+  }
+  .footer-icon a {
+    margin-top: 15px;
+  }
+  .footer-policy {
+    grid-template-columns: repeat(2, 1fr);
+    width: 400px;
+  }
+  .footer-policy a {
+    margin-top: 15px;
+  }
 }
