@@ -24,6 +24,15 @@ button.btn-primary {
 button.btn-primary:hover {
   cursor: pointer;
 }
+.highlight-text {
+  background: linear-gradient(180deg, #f948b2, #8758f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
 
 /* Header style start from here  */
 .header {
@@ -166,15 +175,7 @@ button.btn-goRogue:hover {
   text-align: right;
   margin-top: 87px;
 }
-.we-are-gamer-content h2 {
-  background: linear-gradient(180deg, #f948b2, #8758f1 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 15px;
-}
+
 p.gamer-pra {
   color: #534c64;
   font-size: 15px;
@@ -189,6 +190,44 @@ p.gamer-pra {
 .we-are-gamer-content h4 {
   color: #534c64;
   font-size: 20px;
+}
+
+/* Online Games section style in here  */
+
+h2.online-game-title {
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+small.we-are-gamer-pra {
+  text-align: center;
+  display: block;
+  color: #534c64;
+  margin: 15px 0px;
+}
+.online-game-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 35px;
+}
+.box {
+  width: 250px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#box1 {
+  background-image: url("../images/Rectangle\ 4.png");
+}
+#box2 {
+  background-image: url("../images/Rectangle\ 5.png");
+}
+#box3 {
+  background-image: url("../images/Rectangle\ 7.png");
+}
+#box4 {
+  background-image: url("../images/Rectangle\ 6.png");
 }
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
@@ -293,6 +332,9 @@ p.gamer-pra {
     margin-left: 0px;
   }
   /* We are gammer section responsive style is here  */
+  .onlilne-game {
+    margin-top: 60px;
+  }
   .we-are-gamer {
     flex-direction: column-reverse;
     margin: 0 auto;
