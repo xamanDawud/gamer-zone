@@ -21,6 +21,9 @@ button.btn-primary {
   color: #ffff;
   text-transform: uppercase;
 }
+button.btn-primary:hover {
+  cursor: pointer;
+}
 
 /* Header style start from here  */
 .header {
@@ -79,7 +82,7 @@ span.nav-logo img {
 
 .nav-logo-title {
   font-size: 33px;
-  font-weight: 600;
+  font-weight: 700;
 }
 .nav-title-color {
   color: #ff42a5;
@@ -107,7 +110,7 @@ span.nav-logo img {
 }
 
 .play-like-content h2 {
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 600;
 }
 
@@ -116,8 +119,9 @@ span.nav-logo img {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 63px;
+  font-weight: 800;
+  margin-bottom: 15px;
 }
 
 .play-like-content p {
@@ -142,7 +146,53 @@ button.btn-goRogue {
   margin-left: 35px;
   margin-top: 10px;
 }
+button.btn-goRogue:hover {
+  cursor: pointer;
+}
 
+/* we are gamer section style start from here  */
+.we-are-gamer {
+  display: flex;
+  margin-top: 15px;
+}
+.we-are-gamer-img {
+  /* width: 500px; */
+}
+.we-are-gamer-img img {
+  width: 100%;
+}
+.we-are-gamer-content {
+  width: 550px;
+  text-align: right;
+  margin-top: 87px;
+}
+.we-are-gamer-content h2 {
+  background: linear-gradient(180deg, #f948b2, #8758f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+p.gamer-pra {
+  color: #534c64;
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 23px;
+}
+.we-are-gamer-content p {
+  color: #534c64;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.we-are-gamer-content h4 {
+  color: #534c64;
+  font-size: 20px;
+}
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
 /* Mobile Responsive  */
 @media screen and (max-width: 576px) {
   /* header section responsive style  */
