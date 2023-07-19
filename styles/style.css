@@ -271,6 +271,40 @@ img.play-instant-ad-image {
   border: 1px solid salmon;
   left: -85px;
 }
+/* Action button section styles in here  */
+.action-btn-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-self: center;
+  margin-top: -76px;
+}
+.action-btn:nth-last-child(-n + 4) {
+  margin-left: 50px;
+}
+.action-btn {
+  width: 164px;
+  display: flex;
+  align-items: center;
+  padding: 9px 12px;
+}
+.action-btn:hover {
+  border: 1px solid #ff42a5;
+  border-radius: 34px;
+  color: #ff42a5;
+  cursor: pointer;
+}
+.action-btn small:hover {
+  color: #ff42a5;
+}
+.action-btn small {
+  font-size: 13px;
+  color: #0b0223;
+}
+.action-btn img {
+  width: 30px;
+  margin-right: 9px;
+}
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
