@@ -168,6 +168,28 @@ button.btn-goRogue {
   .nav-simple-menus {
     margin: 20px 0px;
   }
+  /* Banner section responsive style  */
+  .play-like-section {
+    flex-direction: column-reverse;
+  }
+  .play-like-content {
+    margin-top: 34px;
+    margin-left: 25%;
+  }
+  .play-section-wrapper {
+    background: none;
+  }
+  .play-like-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .play-like-img img {
+    width: 80%;
+  }
+  button.btn-goRogue {
+    margin-left: 0px;
+  }
 }
 
 /* Tablet responsive style  */
