@@ -164,9 +164,7 @@ button.btn-goRogue:hover {
   display: flex;
   margin-top: 15px;
 }
-.we-are-gamer-img {
-  /* width: 500px; */
-}
+
 .we-are-gamer-img img {
   width: 100%;
 }
@@ -193,6 +191,9 @@ p.gamer-pra {
 }
 
 /* Online Games section style in here  */
+.onlilne-game {
+  margin-top: 60px;
+}
 
 h2.online-game-title {
   font-size: 32px;
@@ -228,6 +229,47 @@ small.we-are-gamer-pra {
 }
 #box4 {
   background-image: url("../images/Rectangle\ 6.png");
+}
+
+/* Play instant section style is here  */
+.play-instant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -17px;
+}
+.play-instant-contant {
+  margin-left: 12%;
+}
+h3.play-instant-title {
+  width: 250px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #0b0223d9;
+  text-align: right;
+  margin-bottom: 13px;
+}
+p.play-instant-pra {
+  width: 250px;
+  text-align: right;
+  color: #534c64;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.play-instanto-img {
+  width: 41%;
+  margin-top: 120px;
+}
+.play-instant-main-image {
+  width: 100%;
+}
+img.play-instant-ad-image {
+  position: relative;
+  bottom: 160px;
+  width: 191px;
+  border: 1px solid salmon;
+  left: -85px;
 }
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
@@ -283,7 +325,6 @@ small.we-are-gamer-pra {
   .we-are-gamer {
     flex-direction: column;
     margin: 0 auto;
-    /* display: none; */
   }
   .we-are-gamer-img {
     margin-left: 8%;
@@ -293,6 +334,11 @@ small.we-are-gamer-pra {
     width: 80vw;
     margin-left: 12%;
     margin-top: 0px;
+  }
+
+  /* Online game section responsive style in here  */
+  .onlilne-game {
+    display: none;
   }
 }
 
@@ -332,9 +378,6 @@ small.we-are-gamer-pra {
     margin-left: 0px;
   }
   /* We are gammer section responsive style is here  */
-  .onlilne-game {
-    margin-top: 60px;
-  }
   .we-are-gamer {
     flex-direction: column-reverse;
     margin: 0 auto;
@@ -357,5 +400,9 @@ small.we-are-gamer-pra {
     width: 80vw;
     margin-left: 12%;
     margin-top: 36px;
+  }
+  /* Online game section responsive style in here  */
+  .onlilne-game {
+    display: none;
   }
 }
