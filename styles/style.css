@@ -408,10 +408,10 @@ img.play-instant-ad-image {
     margin-left: 0px;
   }
   .action-btn {
-    width: 89px;
+    width: 136px;
     display: flex;
     align-items: center;
-    padding: 9px 1px;
+    padding: 9px 3px;
   }
   .action-btn small {
     font-size: 10x;
@@ -459,14 +459,11 @@ img.play-instant-ad-image {
   .we-are-gamer {
     flex-direction: column-reverse;
     margin: 0 auto;
-    /* display: none; */
   }
   .we-are-gamer-content h2 {
     text-align: center;
   }
-  /* .gamer-pra {
-    text-align: center;
-  } */
+
   .gamer-btn {
     margin-left: 39%;
   }
@@ -507,5 +504,25 @@ img.play-instant-ad-image {
     bottom: 119px;
     width: 140px;
     left: -58px;
+  }
+  /* Action button responsive style in here  */
+  .action-btn-section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 27px;
+    gap: 0px;
+    width: 77vw;
+  }
+  .action-btn:nth-last-child(-n + 4) {
+    margin-left: 0px;
+  }
+  .action-btn {
+    width: 213px;
+    display: flex;
+    align-items: center;
+    padding: 9px 1px;
+  }
+  .action-btn small {
+    font-size: 10x;
+    color: #0b0223;
   }
 }
