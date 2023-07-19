@@ -1,56 +1,48 @@
-/* Work Sans font from google font  */
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap");
-
 * {
   font-family: "Work Sans", sans-serif;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
-
-/* shared styles */
 .container {
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
-
 button.btn-primary {
   border: none;
-  background: #ff42a5;
+  background: rgb(255, 66, 165);
   padding: 13px 27px;
   border-radius: 19px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
 }
 button.btn-primary:hover {
   cursor: pointer;
 }
 .highlight-text {
-  background: linear-gradient(180deg, #f948b2, #8758f1 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
+  background: linear-gradient(180deg, #f948ae 0%, #8758ef 100%);
   color: transparent;
   font-size: 32px;
   font-weight: 800;
   margin-bottom: 15px;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
-
-/* Header style start from here  */
 .header {
-  background-color: #ffffff;
-  box-shadow: 3px 0px 6px #888888;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(136, 136, 136) 3px 0px 6px;
   padding: 19px 0px;
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
 }
-
 .nav-logo {
   display: flex;
   align-items: center;
 }
-
 .nav-simple-menus {
   display: flex;
 }
@@ -63,13 +55,11 @@ button.btn-primary:hover {
   margin-right: 20px;
   font-size: 16px;
   font-weight: 400;
-  color: #3c354f;
+  color: rgb(60, 53, 79);
 }
-
 .nav-menus ul li:hover {
   cursor: pointer;
 }
-
 .follow-us-icon {
   display: flex;
   align-items: center;
@@ -77,7 +67,6 @@ button.btn-primary:hover {
   padding: 7px;
   border-radius: 7px;
 }
-
 .follow-us-icon img {
   width: 32px;
   height: 31px;
@@ -88,24 +77,21 @@ span.nav-logo img {
   height: 32px;
   margin-right: 10px;
 }
-
 .nav-logo-title {
   font-size: 33px;
   font-weight: 700;
 }
 .nav-title-color {
-  color: #ff42a5;
+  color: rgb(255, 66, 165);
 }
-
-/* Banner section styles here  */
 .play-like-section {
   display: flex;
   justify-content: space-between;
 }
 .play-section-wrapper {
-  background-image: url("../images/Group\ 14.png");
+  background-image: url("../images/Group 14.png");
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: left center;
 }
 .play-like-content {
   margin-top: 160px;
@@ -117,40 +103,35 @@ span.nav-logo img {
 .play-like-img img {
   width: 100%;
 }
-
 .play-like-content h2 {
   font-size: 35px;
   font-weight: 600;
 }
-
 .play-like-content h1 {
-  background: linear-gradient(180deg, #f948b2, #8758f1 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
   color: transparent;
   font-size: 63px;
   font-weight: 800;
   margin-bottom: 15px;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  -webkit-background-clip: text;
+  color: transparent;
 }
-
 .play-like-content p {
   display: flex;
   align-items: center;
   margin-bottom: 12px;
 }
-
 .play-like-content p img {
   margin-right: 8px;
   width: 20px;
   height: 21px;
 }
-
 button.btn-goRogue {
   border: none;
-  background: #4ec5f7;
+  background: rgb(78, 197, 247);
   padding: 13px 20px;
   border-radius: 19px;
-  color: #ffff;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   margin-left: 35px;
   margin-top: 10px;
@@ -158,13 +139,10 @@ button.btn-goRogue {
 button.btn-goRogue:hover {
   cursor: pointer;
 }
-
-/* we are gamer section style start from here  */
 .we-are-gamer {
   display: flex;
   margin-top: 15px;
 }
-
 .we-are-gamer-img img {
   width: 100%;
 }
@@ -173,28 +151,24 @@ button.btn-goRogue:hover {
   text-align: right;
   margin-top: 87px;
 }
-
 p.gamer-pra {
-  color: #534c64;
+  color: rgb(83, 76, 100);
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 23px;
 }
 .we-are-gamer-content p {
-  color: #534c64;
+  color: rgb(83, 76, 100);
   font-weight: 500;
   margin-top: 20px;
 }
 .we-are-gamer-content h4 {
-  color: #534c64;
+  color: rgb(83, 76, 100);
   font-size: 20px;
 }
-
-/* Online Games section style in here  */
 .onlilne-game {
   margin-top: 60px;
 }
-
 h2.online-game-title {
   font-size: 32px;
   font-weight: 800;
@@ -203,7 +177,7 @@ h2.online-game-title {
 small.we-are-gamer-pra {
   text-align: center;
   display: block;
-  color: #534c64;
+  color: rgb(83, 76, 100);
   margin: 15px 0px;
 }
 .online-game-cards {
@@ -223,17 +197,16 @@ p.box-caption {
   bottom: -324px;
 }
 #box1 {
-  background-image: url("../images/Rectangle\ 4.png");
+  background-image: url("../images/Rectangle 4.png");
 }
 #box2 {
-  background-image: url("../images/Rectangle\ 5.png");
+  background-image: url("../images/Rectangle 5.png");
 }
 #box3 {
-  background-image: url("../images/Rectangle\ 7.png");
+  background-image: url("../images/Rectangle 7.png");
 }
 .play-now-btn,
 .play-now-text {
-  /* display: none; */
 }
 span.hover-play-accesories {
   position: relative;
@@ -247,18 +220,18 @@ span.hover-play-accesories {
       rgba(45, 45, 45, 0.8),
       rgba(74, 74, 74, 0.8)
     ),
-    url("../images/Rectangle\ 7.png");
+    url("../images/Rectangle 7.png");
   cursor: pointer;
+  border: 2px solid rgb(11, 2, 35);
+  border-radius: 10px;
 }
 #box3:hover span.hover-play-accesories {
   display: block;
   color: red;
 }
 #box4 {
-  background-image: url("../images/Rectangle\ 6.png");
+  background-image: url("../images/Rectangle 6.png");
 }
-
-/* Play instant section style is here  */
 .play-instant {
   display: flex;
   justify-content: space-between;
@@ -272,18 +245,17 @@ h3.play-instant-title {
   width: 250px;
   font-size: 32px;
   font-weight: 800;
-  color: #0b0223d9;
+  color: rgba(11, 2, 35, 0.85);
   text-align: right;
   margin-bottom: 13px;
 }
 p.play-instant-pra {
   width: 250px;
   text-align: right;
-  color: #534c64;
+  color: rgb(83, 76, 100);
   font-size: 14px;
   line-height: 23px;
 }
-
 .play-instanto-img {
   width: 41%;
   margin-top: 120px;
@@ -298,7 +270,6 @@ img.play-instant-ad-image {
   border: 1px solid salmon;
   left: -85px;
 }
-/* Action button section styles in here  */
 .action-btn-section {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -316,25 +287,24 @@ img.play-instant-ad-image {
   padding: 9px 12px;
 }
 .action-btn:hover {
-  border: 1px solid #ff42a5;
+  border: 1px solid rgb(255, 66, 165);
   border-radius: 34px;
-  color: #ff42a5;
+  color: rgb(255, 66, 165);
   cursor: pointer;
 }
 .action-btn small:hover {
-  color: #ff42a5;
+  color: rgb(255, 66, 165);
 }
 .action-btn small {
   font-size: 13px;
-  color: #0b0223;
+  color: rgb(11, 2, 35);
 }
 .action-btn img {
   width: 30px;
   margin-right: 9px;
 }
-/* footer section styles is here  */
 .footer {
-  background-color: #0b0223;
+  background-color: rgb(11, 2, 35);
   width: 100vw;
   padding: 102px 0px;
   margin-top: 88px;
@@ -354,14 +324,11 @@ img.play-instant-ad-image {
   grid-template-columns: repeat(6, 1fr);
   text-align: center;
   width: 600px;
-  /* justify-content: center; */
-  /* justify-items: center; */
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto 0px;
 }
 span.footer-menus a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 .footer-icon {
   display: grid;
@@ -378,26 +345,17 @@ span.footer-icon img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   width: 623px;
-  margin: 0 auto;
-  /* justify-content: center; */
-  /* align-content: center; */
+  margin: 40px auto 0px;
   justify-items: center;
-  margin-top: 40px;
 }
 .footer-policy a {
   text-decoration: none;
-  color: #ffffff82;
+  color: rgba(255, 255, 255, 0.51);
   font-size: 13px;
 }
-
-/* ------------------------------------------------------------------- */
-/* ------------------------------------------------------------------- */
-/* ------------------------------------------------------------------- */
-/* Mobile Responsive  */
 @media screen and (max-width: 576px) {
-  /* header section responsive style  */
   .header {
-    box-shadow: 0px 0px 0px #888888;
+    box-shadow: rgb(136, 136, 136) 0px 0px 0px;
   }
   .nav {
     flex-direction: column;
@@ -406,7 +364,7 @@ span.footer-icon img {
     flex-direction: column;
   }
   .nav-logo {
-    margin: 0 auto;
+    margin: 0px auto;
   }
   .nav-simple-menus {
     flex-direction: column;
@@ -418,7 +376,6 @@ span.footer-icon img {
   .nav-simple-menus {
     margin: 20px 0px;
   }
-  /* Banner section responsive style  */
   .play-like-section {
     flex-direction: column-reverse;
   }
@@ -440,10 +397,9 @@ span.footer-icon img {
   button.btn-goRogue {
     margin-left: 0px;
   }
-  /* We are gammer section responsive style is here  */
   .we-are-gamer {
     flex-direction: column;
-    margin: 0 auto;
+    margin: 0px auto;
   }
   .we-are-gamer-img {
     margin-left: 8%;
@@ -454,10 +410,7 @@ span.footer-icon img {
     margin-left: 12%;
     margin-top: 0px;
   }
-
-  /* Online game section responsive style in here  */
   .onlilne-game {
-    /* display: none; */
   }
   .online-game-cards {
     grid-template-columns: repeat(1, 1fr);
@@ -466,7 +419,6 @@ span.footer-icon img {
   .box {
     margin-bottom: 90px;
   }
-  /* Play instant section responsive style is here  */
   .play-instant {
     flex-direction: column;
   }
@@ -490,7 +442,6 @@ span.footer-icon img {
     width: 140px;
     left: -58px;
   }
-  /* Action button responsive style in here  */
   .action-btn-section {
     grid-template-columns: repeat(3, 1fr);
     margin-top: -66px;
@@ -506,11 +457,8 @@ span.footer-icon img {
     padding: 9px 3px;
   }
   .action-btn small {
-    font-size: 10x;
-    color: #0b0223;
+    color: rgb(11, 2, 35);
   }
-
-  /* Footer responsive styles is here  */
   .footer {
     width: 100vw;
   }
@@ -534,21 +482,17 @@ span.footer-icon img {
     margin-top: 15px;
   }
 }
-
-/* Tablet responsive style  */
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .nav {
     flex-direction: column;
     margin-right: 0%;
   }
   .nav-logo {
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 0px auto 20px;
   }
   .nav-menus {
-    margin: 0 auto;
+    margin: 0px auto;
   }
-  /* Banner section responsive style is here  */
   .play-like-section {
     flex-direction: column;
   }
@@ -571,15 +515,13 @@ span.footer-icon img {
   button.btn-goRogue {
     margin-left: 0px;
   }
-  /* We are gammer section responsive style is here  */
   .we-are-gamer {
     flex-direction: column-reverse;
-    margin: 0 auto;
+    margin: 0px auto;
   }
   .we-are-gamer-content h2 {
     text-align: center;
   }
-
   .gamer-btn {
     margin-left: 39%;
   }
@@ -593,11 +535,8 @@ span.footer-icon img {
     margin-top: 36px;
     width: 70%;
   }
-  /* Online game section responsive style in here  */
   .onlilne-game {
-    /* display: none; */
   }
-  /* Play instant section responsive style is here  */
   .play-instant {
     flex-direction: column-reverse;
   }
@@ -621,7 +560,6 @@ span.footer-icon img {
     width: 140px;
     left: -58px;
   }
-  /* Action button responsive style in here  */
   .action-btn-section {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 27px;
@@ -639,10 +577,8 @@ span.footer-icon img {
     padding: 9px 1px;
   }
   .action-btn small {
-    font-size: 10x;
-    color: #0b0223;
+    color: rgb(11, 2, 35);
   }
-  /* Footer responsive styles is here  */
   .footer {
     width: 100vw;
   }
@@ -668,13 +604,11 @@ span.footer-icon img {
   .footer-policy a {
     margin-top: 15px;
   }
-  /* Online game section responsive style in here  */
   .onlilne-game {
-    /* display: none; */
   }
   .online-game-cards {
     grid-template-columns: repeat(2, 1fr);
-    margin-left: 25%;
+    margin-left: 12%;
   }
   .box {
     margin-bottom: 90px;
