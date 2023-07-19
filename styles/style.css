@@ -398,6 +398,25 @@ img.play-instant-ad-image {
     width: 140px;
     left: -58px;
   }
+  /* Action button responsive style in here  */
+  .action-btn-section {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: -66px;
+    gap: 0px;
+  }
+  .action-btn:nth-last-child(-n + 4) {
+    margin-left: 0px;
+  }
+  .action-btn {
+    width: 89px;
+    display: flex;
+    align-items: center;
+    padding: 9px 1px;
+  }
+  .action-btn small {
+    font-size: 10x;
+    color: #0b0223;
+  }
 }
 
 /* Tablet responsive style  */
