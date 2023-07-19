@@ -668,4 +668,15 @@ span.footer-icon img {
   .footer-policy a {
     margin-top: 15px;
   }
+  /* Online game section responsive style in here  */
+  .onlilne-game {
+    /* display: none; */
+  }
+  .online-game-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 25%;
+  }
+  .box {
+    margin-bottom: 90px;
+  }
 }
