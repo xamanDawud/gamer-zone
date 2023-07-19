@@ -353,6 +353,13 @@ span.footer-icon img {
   color: rgba(255, 255, 255, 0.51);
   font-size: 13px;
 }
+
+.copyright {
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+  color: #ffffff2e;
+}
 @media screen and (max-width: 576px) {
   .header {
     box-shadow: rgb(136, 136, 136) 0px 0px 0px;
@@ -482,6 +489,7 @@ span.footer-icon img {
     margin-top: 15px;
   }
 }
+
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .nav {
     flex-direction: column;
