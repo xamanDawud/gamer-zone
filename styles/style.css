@@ -218,6 +218,10 @@ small.we-are-gamer-pra {
   background-repeat: no-repeat;
   background-size: cover;
 }
+p.box-caption {
+  position: relative;
+  bottom: -324px;
+}
 #box1 {
   background-image: url("../images/Rectangle\ 4.png");
 }
@@ -226,6 +230,29 @@ small.we-are-gamer-pra {
 }
 #box3 {
   background-image: url("../images/Rectangle\ 7.png");
+}
+.play-now-btn,
+.play-now-text {
+  /* display: none; */
+}
+span.hover-play-accesories {
+  position: relative;
+  top: 34%;
+  left: 39%;
+  display: none;
+}
+#box3:hover {
+  background-image: linear-gradient(
+      135deg,
+      rgba(45, 45, 45, 0.8),
+      rgba(74, 74, 74, 0.8)
+    ),
+    url("../images/Rectangle\ 7.png");
+  cursor: pointer;
+}
+#box3:hover span.hover-play-accesories {
+  display: block;
+  color: red;
 }
 #box4 {
   background-image: url("../images/Rectangle\ 6.png");
