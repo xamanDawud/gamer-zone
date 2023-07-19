@@ -305,6 +305,64 @@ img.play-instant-ad-image {
   width: 30px;
   margin-right: 9px;
 }
+/* footer section styles is here  */
+.footer {
+  background-color: #0b0223;
+  width: 100vw;
+  padding: 102px 0px;
+  margin-top: 88px;
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+}
+.footer-logo img {
+  margin-right: 10px;
+}
+.footer-menus {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  text-align: center;
+  width: 600px;
+  /* justify-content: center; */
+  /* justify-items: center; */
+  margin: 0 auto;
+  margin-top: 40px;
+}
+span.footer-menus a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-icon {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 454px;
+  align-items: center;
+  margin-top: 41px;
+  margin-left: 38vw;
+}
+span.footer-icon img {
+  width: 33px;
+}
+.footer-policy {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 623px;
+  margin: 0 auto;
+  /* justify-content: center; */
+  /* align-content: center; */
+  justify-items: center;
+  margin-top: 40px;
+}
+.footer-policy a {
+  text-decoration: none;
+  color: #ffffff82;
+  font-size: 13px;
+}
+
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
 /* ------------------------------------------------------------------- */
@@ -511,6 +569,7 @@ img.play-instant-ad-image {
     margin-top: 27px;
     gap: 0px;
     width: 77vw;
+    margin-left: 20%;
   }
   .action-btn:nth-last-child(-n + 4) {
     margin-left: 0px;
